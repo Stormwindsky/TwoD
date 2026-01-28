@@ -1,5 +1,3 @@
-# PLEASE NOTE THAT SOME PARTS ARE NOT YET AVAILABLE AS THEY NEED TO BE UPDATED AND THE UPDATE IS CURRENTLY IN PROGRESS.
-
 ## 🚀 Zephyr Engine Launcher
 
 Zephyr Engine Launcher is the launcher for running TwoD and ThreeD.
