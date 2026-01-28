@@ -1,8 +1,8 @@
 # NOTICE
 
-**TwoD Engine**
+**ZEL (Zephyr Engine Launcher)**
 
-This project is licensed under the **MIT License**. 
+This project is primarily licensed under the **MIT License** (see the `LICENSE.md` file for the full text). 
 
 However, this software includes third-party components and dependencies that are governed by their own respective licenses. Below is a summary of these components and their licensing terms.
 
@@ -11,11 +11,17 @@ However, this software includes third-party components and dependencies that are
 ## 1. Primary License (This Project)
 **Copyright (c) 2026 Stormwindsky**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.
+This software is provided under the **MIT License**. For the full legal text and permissions, please refer to the `LICENSE.md` file included in this repository.
 
 ---
 
 ## 2. Third-Party Dependencies
+
+### Tkinter (Python GUI Toolkit)
+* **Project:** [Tkinter / Tcl/Tk](https://docs.python.org/3/library/tkinter.html)
+* **License:** Python Software Foundation (PSF) License
+* **Usage:** Used for the graphical user interface of the Zephyr Engine Launcher.
+* **Note:** Requires the `python3-tk` system package on Linux systems.
 
 ### Pygame Library
 * **Project:** [Pygame](https://www.pygame.org/)
@@ -25,7 +31,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 ### Python Standard Library
 * **Project:** Python (json, math, os, sys modules)
 * **License:** Python Software Foundation (PSF) License
-* **Usage:** Core logic and settings serialization.
+* **Usage:** Core logic, system operations, and settings serialization.
 
 ---
 
@@ -36,14 +42,5 @@ The `hsv_to_rgb` implementation in `twod_engine.py` is a standard mathematical c
 
 ---
 
-## 4. External Deposits / Scripts
-If you have integrated external scripts or "depots" as mentioned in your project structure:
-
-* **[Component Name]:** Licensed under [License Name, e.g., Apache 2.0 / BSD].
-* **Source:** [Link to original repository]
-* **Copyright:** (c) [Year] [Original Author]
-
----
-
 ## How to attribute
-If you redistribute this software, you must retain this `NOTICE` file and the original `LICENSE` file to comply with the attribution requirements of the MIT and LGPL licenses.
+If you redistribute this software, you must retain this `NOTICE` file and the original `LICENSE.md` file to comply with the attribution requirements of the MIT, PSF, and LGPL licenses.
